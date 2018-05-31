@@ -1,0 +1,441 @@
+body,h1,h2,h3 ,p{
+    margin: 0;
+    padding: 0;
+}
+
+body, button, input{
+    font: 14px/1.5 "Microsoft Yahei", arial;
+    -webkit-font-smoothing: antialiased;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+input, select, textarea {
+    font-size: 100%;
+}
+input,button{
+    outline: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    color:  #6db665;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+.head{
+    height: 50px;
+    background-color: #6db665;
+    border-bottom: 1px solid #ccc;
+    min-width: 1200px;
+}
+.wrap{
+    width: 1200px;
+    margin:0 auto;
+    position: relative;
+}
+.h-logo{
+    font-size: 0;
+    line-height: 50px;
+    color: #fff;
+}
+.h-logo img{
+    padding-left: 10px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.l-menu{
+    margin-top: 18px;
+    float: left;
+    width: 20%;
+    max-width: 300px;
+}
+.l-nav{
+    padding: 0 6px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px 1px #ddd;
+}
+.l-nav li{
+    height: 42px;
+    line-height: 42px;
+    text-indent: 48px;
+    border-bottom: 1px solid #ccc;
+}
+.l-nav li a{
+    margin-right: 10px;
+    background: url("../images/right.png") no-repeat right center;
+    background-size: 8px;
+}
+.l-nav li.i-home{
+    background: url("../images/home.png") no-repeat 10px center;
+    background-size: 25px;
+}
+.l-nav li.i-cart{
+    background: url("../images/img01.png") no-repeat 10px center;
+    background-size: 25px;
+}
+.l-nav li.i-kc{
+    background: url("../images/img02.png") no-repeat 10px center;
+    background-size: 25px;
+}
+.l-nav li.i-ms{
+    background: url("../images/img03.png") no-repeat 10px center;
+    background-size: 25px;
+}
+.l-nav li.i-kf{
+    background: url("../images/img07.png") no-repeat 10px center;
+    background-size: 25px;
+}
+.l-nav li:last-child{
+    border-bottom: none;
+}
+.l-nav li a{
+    font-size: 16px;
+    display: block;
+}
+.l-service{
+    margin: 15px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    box-shadow: 0 1px 5px 1px #ddd;
+}
+.service-time{
+    background-color: #6db665;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    line-height: 24px;
+    color: #fff;
+}
+.customer-phone{
+    text-indent: 60px;
+    padding: 20px 0;
+    box-sizing: border-box;
+    color: #666666;
+}
+.l-fkt{
+    background: url("../images/img08.png") no-repeat 30px center;
+    background-size: 20px;
+}
+.l-phone{
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 5px;
+    color: #666666;
+}
+.l-mobile{
+    font-size: 18px;
+    line-height: 24px;
+}
+.l-address{
+    line-height: 28px;
+    text-indent: 46px;
+    font-size: 14px;
+    background: url("../images/img09.png") no-repeat 20px center;
+    background-size: 20px;
+    color: #666666;
+}
+.l-mail{
+    line-height: 40px;
+    text-indent: 46px;
+    font-size: 14px;
+    background: url("../images/img10.png") no-repeat 20px center;
+    background-size: 20px;
+    color: #666666;
+}
+
+.l-list{
+    box-shadow: 0 1px 5px 1px #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.l-list-title{
+    height: 48px;
+    line-height: 48px;
+    background-color: #6db665;
+    text-indent: 30px;
+    color: #fff;
+    font-weight: normal;
+}
+.l-list ul li{
+    min-height: 60px;
+    background: url("../images/img12.png") no-repeat 90% center;
+    background-size: 10px;
+}
+.l-list ul li a{
+    display:block;
+    padding-top: 12px;
+}
+.list-img img{
+    height: 36px;
+    width: 36px;
+    margin-top: 2px;
+}
+.list-img{
+    height: 36px;
+    width: 36px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px 0 16px;
+}
+.list-content{
+    display: inline-block;
+}
+
+.content-wrap{
+    padding-left: 5%;
+    float: left;
+    width: 75%;
+}
+.c-head{
+    padding-top: 31px;
+}
+.c-head .c-form{
+    display: inline-block;
+    margin-left: 65px;
+    width: 400px;
+    height: 40px;
+    border: 1px solid #6db665;
+    border-radius: 5px;
+    vertical-align: top;
+}
+.c-form .c-search{
+    width: 320px;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    text-indent: 45px;
+    font-size: 16px;
+    background: url("../images/search.png") no-repeat 12px center;
+    background-size: 20px;
+}
+.c-form .c-btn{
+    width: 80px;
+    float: left;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    background: #6db665;
+}
+.c-head .c-inventory{
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: #fff;
+    background: #6db665;
+    border-radius: 30px;
+    margin-left: 45px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.c-table table{
+    width: 100%;
+    margin-top: 42px;
+    border-radius: 3px;
+    box-shadow: 0 1px 5px 1px #ddd;
+}
+.c-table table thead{
+    background: #89c587;
+    color: #fff;
+    line-height: 35px;
+    padding: 2px 0;
+}
+.c-table table thead th:not(:last-child){
+    border-right: 2px solid #fff;
+}
+.c-table table tbody{
+    text-align: center;
+    line-height: 35px;
+    padding: 2px 0;
+}
+.c-table table tbody tr{
+    border-bottom: 1px solid #dcdcdc;
+}
+.c-table table .addInventory{
+   color: #6db665;
+}
+.c-table table .addInventory:hover{
+    text-decoration: underline;
+}
+.c-table table tbody tr:nth-of-type(2n){
+    background: #f1f6f0;
+}
+.c-page{
+    margin-top: 80px;
+}
+.c-page ul{
+    text-align: center;
+    font-size: 0;
+}
+.c-page ul li{
+    display: inline-block;
+    border: solid 1px #ccc;
+    border-right: none;
+    overflow: hidden;
+}
+.c-page ul li:last-child{
+    border-right: solid 1px #ccc;
+    border-radius: 0 3px 3px 0;
+}
+.c-page ul li a{
+    display: block;
+    padding: 5px 18px;
+    font-size: 14px;
+    color: #6db665;
+}
+.c-page ul li:not(:last-child):hover{
+    border: 1px solid #6db665;
+    border-right: none;
+}
+.c-page ul li:not(:last-child):hover a{
+    background: #6db665;
+    color: #fff;
+}
+.c-page ul li:first-child{
+    border-radius: 3px 0 0 3px;
+}
+.c-page ul li.active{
+    border: 1px solid #6db665;
+    border-right: none;
+}
+.c-page ul li.active a{
+    background: #6db665;
+    color: #fff;
+}
+
+.footer{
+    margin-top: 100px;
+}
+
+.f-content{
+    background: #222222;
+    min-width: 1200px;
+    padding: 40px 0;
+    font-size: 0;
+}
+.f-content .f-left,.f-content .f-right{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    text-align: center;
+    font-size: 0;
+}
+.f-left ul,.f-right ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    font-size: 14px;
+    text-align: left;
+}
+.f-content li h3{
+    color: #f6f6f6;
+    padding: 10px 0;
+}
+.f-content li{
+    line-height: 24px;
+}
+.f-content li a{
+    color: #bababa;
+}
+.f-foot{
+    height: 50px;
+    line-height: 50px;
+    background: #101010;
+    color: #fff;
+    text-align: center;
+    min-width: 1200px;
+}
+.f-foot a{
+    color: #fff;
+}
+.f-right .f-contactUs{
+    text-align: left;
+}
+.f-right .f-contactUs h3{
+    color: #6db665;
+}
+.f-right .f-contactUs span{
+    display: inline-block;
+    text-indent: 25px;
+    color: #bababa;
+}
+.f-contactUs .phone{
+    background: url("../images/img13.png") no-repeat 0 center;
+}
+.f-contactUs .mail{
+    background: url("../images/img16.png") no-repeat 0 center;
+}
+.f-contactUs .address{
+    background: url("../images/img14.png") no-repeat 0 center;
+}
+.f-contactUs .msg{
+    background: url("../images/img15.png") no-repeat 0 center;
+}
+.right-f{
+    position: fixed;
+    width: 60px;
+    min-height: 255px;
+    right: 10px;
+    top: 50%;
+    margin-top: -130px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 1px #ddd;
+}
+.right-f li{
+    text-align: center;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.right-f li img{
+    width: 40px;
+}
+.right-f li span{
+    font-size: 14px;
+}
+.right-f .r-logo{
+    margin-top: -35px;
+}
+.right-f .r-logo img{
+    width: 100%;
+}
+.a-about p{
+    font-size: 16px;
+    text-indent: 2em;
+    line-height: 1.8;
+    margin: 12px 0;
+}
+.a-title{
+    font-size: 32px;
+    text-align: center;
+    margin: 20px 0 30px;
+    color: #666;
+}
+@media screen and (min-width: 1600px) {
+    .wrap{
+        width: 1400px;
+    }
+}
