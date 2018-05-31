@@ -439,3 +439,5 @@ a:hover{
         width: 1400px;
     }
 }
+
+#iconDivMain1,#mobile_icon_div{visibility: hidden;}
